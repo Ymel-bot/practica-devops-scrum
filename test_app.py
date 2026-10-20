@@ -1,7 +1,7 @@
-   from app import sumar
+from app import sumar
 
-   def test_sumar():
-       assert sumar(2, 3) == 5
+def test_sumar():
+    assert sumar(2, 3) == 5
 
-   def test_sumar_negativos():
-       assert sumar(-1, 1) == 0
+def test_sumar_negativos():
+    assert sumar(-1, 1) == 0
